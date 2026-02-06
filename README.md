@@ -38,7 +38,8 @@ are most likely to accept marketing campaigns and drive revenue.
 - Customers by age, income, education, and marital status
 - Recency and income group segmentation
 
-<img width="612" height="344" alt="Marketing1" src="https://github.com/user-attachments/assets/65a89dff-09bf-4139-8f1f-f063f3c38810" />
+![marketing_campaign_page-0001](https://github.com/user-attachments/assets/a1616141-bda9-4428-b934-6c5a113fff26)
+
 
 
 ---
@@ -48,7 +49,9 @@ are most likely to accept marketing campaigns and drive revenue.
 - Acceptance rate by income, age, and recency
 - Impact of complaints on campaign response
 
-<img width="611" height="344" alt="Marketing2" src="https://github.com/user-attachments/assets/2603d5d8-654e-492e-b5df-ff68c3d2f8fc" />
+![marketing_campaign_page-0002](https://github.com/user-attachments/assets/11c50337-29e3-4eb3-9e17-9cf4dae4f498)
+
+
 
 
 ---
@@ -58,7 +61,9 @@ are most likely to accept marketing campaigns and drive revenue.
 - Purchases by channel
 - Spending patterns by income and age group
 
-<img width="614" height="346" alt="Marketing3" src="https://github.com/user-attachments/assets/6285ab08-923a-4bcd-8e71-8a2c62c20b25" />
+![marketing_campaign_page-0003](https://github.com/user-attachments/assets/b4448399-e931-430a-8423-aaa63b5024ae)
+
+
 
 
 ---
