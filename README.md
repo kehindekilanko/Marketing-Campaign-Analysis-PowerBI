@@ -1,94 +1,92 @@
-# Marketing Campaign Analysis 
+# Marketing Campaign Analysis
+## Project Overview
 
-## 📌 Project Overview
-This project analyzes customer demographics, purchasing behavior,
-and marketing campaign performance to identify which customer segments
-are most likely to accept marketing campaigns and drive revenue.
+This project evaluates customer demographics, purchasing behavior, and marketing campaign performance to determine which segments are most likely to convert and generate revenue.
 
----
+The objective was to move beyond descriptive reporting and build a dashboard that supports targeted marketing decisions, budget allocation, and revenue optimization.
 
-## 🎯 Business Objectives
-- Identify customer segments most likely to accept campaigns
-- Analyze acceptance rate by income, age, and recency
-- Understand spending behavior across products and channels
-- Support data-driven marketing strategy decisions
+Through structured segmentation and KPI modeling, the analysis identifies high-converting customer profiles and underperforming campaign areas.
 
----
+## Business Objectives
 
-## 📊 Key Metrics
-- Customers: 2,000
-- Total Purchases: 33,000
-- Total Revenue: $1.4M
-- Overall Acceptance Rate: 7.4%
-- Average Income: $52.24K
+- Identify customer segments with the highest campaign acceptance rates
 
----
+- Analyze acceptance trends across income, age, and recency
 
-## 🛠 Tools & Technologies
-- Power BI Desktop
-- DAX
-- Power Query
-- Data Modeling
+- Evaluate product and channel spending behavior
 
----
+- Provide data-driven recommendations for campaign optimization
 
-## 📈 Dashboard Pages
+## Key Metrics
 
-### 🔹 Customer Demographics
-- Customers by age, income, education, and marital status
-- Recency and income group segmentation
+- 2,000 customers analyzed
 
-![marketing_campaign_page-0001](https://github.com/user-attachments/assets/a1616141-bda9-4428-b934-6c5a113fff26)
+- 33,000 total purchases
 
+- $1.4M total revenue
 
+- 7.4% overall campaign acceptance rate
 
----
+- $52.24K average customer income
 
-### 🔹 Campaign Performance Analysis
-- Acceptance rate by campaign
-- Acceptance rate by income, age, and recency
-- Impact of complaints on campaign response
+These KPIs were dynamically calculated using DAX measures within a structured data model.
 
-![marketing_campaign_page-0002](https://github.com/user-attachments/assets/11c50337-29e3-4eb3-9e17-9cf4dae4f498)
+## Tools & Technologies
 
+- Microsoft Power BI Desktop
 
+- DAX (calculated measures & KPIs)
 
+- Power Query (data cleaning & transformation)
 
----
+- Snowflake schema data modeling
 
-### 🔹 Spending Behavior Analysis
-- Total spent by product category
-- Purchases by channel
-- Spending patterns by income and age group
+## Data Preparation & Modeling
 
-![marketing_campaign_page-0003](https://github.com/user-attachments/assets/b4448399-e931-430a-8423-aaa63b5024ae)
+To ensure scalable and reliable analysis:
 
+- Cleaned and standardized demographic and transactional data
 
+- Created income and recency segmentation groups
 
+- Built a structured data model for campaign-level analysis
 
----
+- Developed dynamic measures for:
 
-## 🧠 Key Insights
-- Very high-income customers show significantly higher campaign acceptance
-- Recently active customers (0–30 days) respond better to campaigns
-- Campaign 6 recorded the highest acceptance rate
-- Wines and Meat generate the highest revenue
-- Store and Web channels dominate total purchases
+    - Acceptance rate
 
----
+    - Revenue 
 
-## 📌 Recommendations
-- Focus campaign targeting on high and very high-income customers
-- Prioritize recently active customers for future campaigns
-- Optimize underperforming campaigns using insights from Campaign 6
-- Increase focus on high-revenue product categories
+    - Customer segmentation
 
----
+    - Channel performance
 
-## 🚀 Skills Demonstrated
-- Customer segmentation
-- Marketing analytics
-- Power BI dashboard design
-- DAX measures and KPIs
-- Business insight generation
+This approach enables flexible slicing of performance across multiple dimensions.
+
+## Key Insights
+
+- Very high-income customers demonstrate significantly higher campaign acceptance rates
+
+- Recently active customers (0–30 days) show stronger engagement and conversion
+
+- Campaign 6 achieved the highest acceptance rate, indicating replicable strategy elements
+
+- Wines and Meat generate the highest revenue contribution
+
+- Store and Web channels dominate purchasing activity
+
+Critical Finding:
+Income level and recency are stronger predictors of campaign acceptance than demographic attributes like age alone.
+
+## Business Recommendations
+
+- Prioritize high and very high-income customers for premium campaigns
+
+- Target recently active customers to maximize conversion probability
+
+- Deconstruct Campaign 6 strategy and replicate successful elements
+
+- Reallocate budget from underperforming campaigns to high-response segments
+
+- Increase focus on high-revenue product categories for upselling opportunities
 
